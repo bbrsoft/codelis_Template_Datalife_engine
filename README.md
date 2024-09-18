@@ -42,7 +42,7 @@ ADMIN
 
 ## Kontributor
 
-Proyek ini dikembangkan oleh [BBRSOFT](https://github.com/bbrsoft) dan para [kontributor]
+Proyek ini dikembangkan oleh [BBRSOFT](https://github.com/bbrsoft)
 .
 ## Lisensi
 
