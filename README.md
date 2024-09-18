@@ -36,10 +36,13 @@ DLE belum dapat digunakan untuk produksi dan sedang dalam proses pengembangan.
 - [X] gunakan Database codelist_db
 - [X] jalankan https://domainwebkamu.com/
 
+## Managemen Template
+- [X] Gunakan Template DEFAULT Untuk Hasil Tampilan Codelist theme.
+
 ## Tes Akses
 ADMIN 
-User : AdminC
-Password : AdminC
+- [X] User : AdminC
+- [X] Password : AdminC
 
 ## Kontributor
 
