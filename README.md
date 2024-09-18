@@ -69,4 +69,4 @@ Bila Anda memerlukan profesional support atau ingin mengadakan kerjasama dengan 
 Butuh lebih banyak screenshot? silahkan cek folder [preview](preview)
 
 ## Video
-https://www.youtube.com/watch?v=BLz5vTlDuMM
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BLz5vTlDuMM?si=5ygVjX6-He47Ej5t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
