@@ -67,3 +67,6 @@ Bila Anda memerlukan profesional support atau ingin mengadakan kerjasama dengan 
 ![Hris Laporan Absensi Preview](paneladmin.png)
 
 Butuh lebih banyak screenshot? silahkan cek folder [preview](preview)
+
+## Video
+https://www.youtube.com/watch?v=BLz5vTlDuMM
