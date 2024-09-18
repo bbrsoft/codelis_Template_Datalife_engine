@@ -11,7 +11,6 @@ DLE belum dapat digunakan untuk produksi dan sedang dalam proses pengembangan.
 - [X] PHP versi 7.1.7 atau Terbaru
 - [X] MYSQLSQL Database minimal versi 9.6
 - [X] Web Server (Apache, Nginx atau IIS)
-- [X] APCu extension (untuk Production)
 
 **NOTE**: 
 
@@ -27,14 +26,20 @@ DLE belum dapat digunakan untuk produksi dan sedang dalam proses pengembangan.
 
 - [X] Clone/Download repository `git clone https://github.com/bbrsoft/codelis_Template_Datalife_engine.git` dan pindah ke File `Upload`
 - [X] Simapan File Upload di Folder Xampp > htdoc
+- [X] gunakan Database codelist_db
 - [X] jalankan http://localhost/upload/
 
 ## Cara Install (Server)
 
 - [X] Clone/Download repository `git clone https://github.com/bbrsoft/codelis_Template_Datalife_engine.git` dan pindah ke File `Upload`
 - [X] Simapan File Upload di Folder public_html
+- [X] gunakan Database codelist_db
 - [X] jalankan https://domainwebkamu.com/
 
+## Tes Akses
+ADMIN 
+User : AdminC
+Password : AdminC
 
 ## Kontributor
 
