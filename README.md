@@ -60,8 +60,6 @@ Untuk mensupport proyek ini, Anda dapat memberikan donasi melalui rekening berik
 Bila Anda memerlukan profesional support atau ingin mengadakan kerjasama dengan saya, dapat menghubungi saya melalui:
 - WA: 082169419513
 
-## Keamanan Aplikasi
-
 ## Preview
 
 ![Hris Profil Karyawan Preview](preview.png)
