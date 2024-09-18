@@ -4,7 +4,7 @@ dle adalah CMS Blog Posting Keren.
 
 ## Tahap Pengembangan
 
-Hris belum dapat digunakan untuk produksi dan sedang dalam proses pengembangan.
+DLE belum dapat digunakan untuk produksi dan sedang dalam proses pengembangan.
 
 ## Minimum Requirement
 
@@ -23,61 +23,26 @@ Hris belum dapat digunakan untuk produksi dan sedang dalam proses pengembangan.
 - [X] CMS
 - [X] Template DLE
 
-## Cara Install (Menggunakan Docker)
+## Cara Install (Menggunakan XAmpp)
 
-- [X] Clone/Download repository `git clone https://github.com/bbrsoft/Hris.git` dan pindah ke folder `Hris`
-- [X] Build image dengan [`docker-compose`](https://docs.docker.com/compose) dengan menjalankan `docker-compose build && docker-compose up` 
-- [X] Jalankan perintah `docker exec -it hris_db_1 psql -U hris`, bila perlu memasukkan password, masukkan `hris`
-- [X] Jalankan perintah `CREATE EXTENSION IF NOT EXISTS "uuid-ossp";` untuk mengaktifkan ekstensi UUID.
-- [X] Jalankan perintah `docker-compose exec app bin/console doctrine:schema:update --force` untuk membuat table yang dibutuhkan
-- [X] Jalankan perintah `docker-compose exec app bin/console doctrine:fixtures:load -n` untuk *populate initial* data
-- [X] Buka halaman `<HOST>:8000/` untuk halaman admin
-- [X] Buka halaman `<HOST>:8000/api` untuk halaman API
-- [X] Buka halaman `<HOST>:8080` untuk halaman Adminer
+- [X] Clone/Download repository `git clone https://github.com/bbrsoft/codelis_Template_Datalife_engine.git` dan pindah ke File `Upload`
+- [X] Simapan File Upload di Folder Xampp > htdoc
+- [X] jalankan http://localhost/upload/
 
-## Cara Install (Manual)
+## Cara Install (Server)
 
-- [X] Clone/Download repository `git clone https://github.com/bbrsoft/Hris.git` dan pindah ke folder `Hris`
-- [X] Jalankan [Composer](https://getcomposer.org/download) Install/Update `composer update --prefer-dist -vvv`
-- [X] Setup koneksi database pada `.env`
-```lang=bash
-    _DB_DRIVER="pgsql"
-    _DB_USER="hris"
-    _DB_PASSWORD="hris"
-    _DB_HOST="db"
-    _DB_PORT="5432"
-    _DB_NAME="hris"
-```
-- [X] Jalankan perintah `php bin/console doctrine:database:drop --force` untuk menghapus database lama (**optional**)
-- [X] Jalankan perintah `php bin/console doctrine:database:create` untuk membuat database
-- [X] Aktifkan ekstensi UUID dengan menjalankan perintah `CREATE EXTENSION IF NOT EXISTS "uuid-ossp";` pada Console DB/PgAdmin
-- [X] Jalankan perintah `php bin/console doctrine:schema:update --force` untuk membuat table yang dibutuhkan
-- [X] Jalankan perintah `php bin/console doctrine:fixtures:load` untuk *populate initial* data
-- [X] Simpan username dan password yang ditampilkan untuk digunakan mengakses aplikasi
-- [X] Jalankan perintah `php bin/console server:run` untuk mengaktifkan web server
-- [X] Buka halaman `<HOST>:<PORT>/` untuk halaman admin
-- [X] Buka halaman `<HOST>:<PORT>/api` untuk halaman API
+- [X] Clone/Download repository `git clone https://github.com/bbrsoft/codelis_Template_Datalife_engine.git` dan pindah ke File `Upload`
+- [X] Simapan File Upload di Folder public_html
+- [X] jalankan https://domainwebkamu.com/
 
-## Unit Test
-
-Untuk menjalankan unit testing, Anda cukup menjalankan perintah `php vendor/bin/phpunit`
 
 ## Kontributor
 
-Proyek ini dikembangkan oleh [Mu](https://github.com/bbrsoft) dan para [kontributor]
+Proyek ini dikembangkan oleh [BBRSOFT](https://github.com/bbrsoft) dan para [kontributor]
 .
-
-## TODO
-
-Untuk apa saja yang sudah dan belum dikerjakan bisa melihat [TODO LIST](TODO.md)
-
-## ROADMAP
-
-Untuk mengetahui roadmap dari aplikasi HRIS bisa melihat [ROADMAP](ROADMAP.md)
-
 ## Lisensi
 
-Proyek ini menggunakan lisensi [MIT](https://tldrlegal.com/license/mit-license) &copy; Muhamad Surya Iksanudin.
+Proyek ini menggunakan lisensi [MIT]([https://tldrlegal.com/license/mit-license](https://dle-news.com/licence.html)) &copy; B rahmat.
 Pastikan Anda memahami kewajiban dan hak Anda sebelum Anda memutuskan untuk menggunakan software ini.
 
 ## Donasi
