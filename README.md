@@ -2,10 +2,6 @@
 
 dle adalah CMS Blog Posting Keren.
 
-## Tahap Pengembangan
-
-DLE belum dapat digunakan untuk produksi dan sedang dalam proses pengembangan.
-
 ## Minimum Requirement
 
 - [X] PHP versi 7.1.7 atau Terbaru
